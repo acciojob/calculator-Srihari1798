@@ -1,2 +1,45 @@
 
 /* Your CSS Code here. */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	position:absolute;
+	left:30%;
+	top:50%
+    transform:translate(-30%,-50%);
+	border-radius:8px 8px 0 0 ;
+	outline:none;
+	background:white;
+	box-shadow: 22px 22px 80px 10px rgba(0,0,0,0.4);
+}
+.buttons{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	gap:1px;
+}
+.row{
+	display:flex;
+	justify-content:space-around;
+	gap:1px;
+}
+ .row button{
+    width: 75px;
+    height: 75px;
+    border-radius: 0 0 0 0;
+    outline: 1px solid gray;
+	 background:white;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.2s all linear; 
+} 
+#input{
+	outline:none;
+	border:none;
+	width:300px;
+	height:100px
+}
